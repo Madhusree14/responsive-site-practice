@@ -1,12 +1,13 @@
 .skill-box {
-  color: blue;
+  //color: blue;
+  background-color: #fff;
 
-  display: inline-block;
-  border-style: solid;
+  float: left;
+  //border-style: solid;
   border-radius: 8px;
 
   max-width: 20%;
-  height: 250px;
+  height: 300px;
   margin: 1em;
 
   text-align: center;
@@ -24,10 +25,18 @@
 .skill-description {
   font-weight: 400;
   font-family: 'Lato', sans-serif;
+  margin: 1em;
 }
 
 .skill-img {
   max-height: 100px;
+  width: 100px;
+  margin: 1em;
+}
+
+body {
+  background-color: #6ac5ac;
+
 }
 
 * {
