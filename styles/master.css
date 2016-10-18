@@ -22,6 +22,8 @@
   margin-bottom: 1em;
   text-align: center;
 
+  transition: 1s;
+
   box-shadow: 3px 3px 3px;
 
 }
@@ -75,14 +77,14 @@ body {
   }
 }
 
-@media screen and (min-width: 700px) and (max-width: 999px){
+@media screen and (min-width: 730px) and (max-width: 999px){
   .skill-box-resp
   {
     width: 28%;
   }
 }
 
-@media screen and (max-width: 699px){
+@media screen and (max-width: 729px){
   .skill-box-resp
   {
     width: 45%;
