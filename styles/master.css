@@ -92,6 +92,10 @@ body {
   .skill-box-resp
   {
     width: 45%;
-    height: 370px;
+    height: 200px;
+  }
+
+  .skill-description {
+    display: none;
   }
 }
