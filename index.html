@@ -1,13 +1,21 @@
-<!DOCTYPE html>
-<html>
+<!doctype html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <title>Code Astra Fullstack</title>
     <link rel="stylesheet" href="./styles/master.css" media="screen" title="no title">
-    <link href="https://fonts.googleapis.com/css?family=Abel|Lato:300,400,700,900" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,900" rel="stylesheet">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script type="text/javascript" src="./scripts/jquery.inview.js"></script>
+    <script type="text/javascript" src="./scripts/master.js"></script>
+    <script>
+      $('.skill-box').bind('inview', function(event, isInView, visiblePartX, visiblePartY) {
+          $(this).animate({width:800},1000);
+      });
+    </script>
   </head>
   <body>
-    <h1>- We are learning -</h1>
+    <h1 class="slide-left">- We are learning -</h1>
     <div class="container">
       <div class="skill-box skill-box-resp">
         <div class="skill-img-box">
@@ -228,5 +236,9 @@
       </div>
     </div>
 
+    <script src="./scripts/jquery.fadethis.min.js"></script>
+    <script>
+    $(window).fadeThis();
+    </script>
   </body>
 </html>
