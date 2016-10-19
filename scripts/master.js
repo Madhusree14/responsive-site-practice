@@ -1,5 +1,5 @@
 $(function() {
-  $('.skill-box').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
+  $('.skill-box-inner').on('inview', function(event, isInView, visiblePartX, visiblePartY) {
     if(isInView){
       $(this).stop().addClass('skill-box-animation');
     }
